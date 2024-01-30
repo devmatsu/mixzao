@@ -3,7 +3,7 @@ body {
   padding: 0;
   font-family: Arial, sans-serif;
   color: #fff;
-  background-color: #444444;
+  background-color: #212b44e1;
 }
 
 .app-container {
@@ -13,14 +13,14 @@ body {
 }
 
 header {
-  background-color: #222222;
+  background-color: #212b44;
   color: #fff;
   padding: 20px;
   text-align: center;
 }
 
 footer {
-  background-color: #222222;
+  background-color: #212b44;
   color: #fff;
   padding: 10px 0;
   text-align: center;
@@ -40,8 +40,9 @@ main {
 }
 
 .logo img {
-  width: 70px;
-  height: 70px;
+  width: 140px;
+  height: 140px;
+  margin-left: 50px
 }
 
 nav ul {
@@ -62,9 +63,13 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: red;
+  color: #ead265;
 }
 
+
+.social-icons {
+  margin-right: 20px;
+}
 
 .social-icons a {
   margin-left: 24px;
@@ -73,5 +78,5 @@ nav ul li a:hover {
 }
 
 .social-icons a:hover {
-  color: red;
+  color: #ead265;
 }

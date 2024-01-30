@@ -20,7 +20,7 @@
   position: relative;
   margin: 20px;
   padding: 20px;
-  background-color: #a7a7a7;
+  background-color: #707070;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   width: 250px;
@@ -36,7 +36,7 @@
 
 .memberCardH2 {
   margin: 10px 0;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .socialIcons {
@@ -45,11 +45,11 @@
 
 .socialIconsA {
   text-decoration: none;
-  color: #333;
+  color: #e3e3e3;
   margin: 5px;
   transition: color 0.3s;
 }
 
 .socialIconsA:hover {
-  color: #007bff;
+  color: #ead265;
 }

@@ -16,7 +16,9 @@ function MyApp({ Component, pageProps }) {
       <header>
         <div className="header-content">
           <div className="logo">
-            <img src="/images/mixzao_logo.jpg" alt="Logo" />
+            <Link href="/">
+              <img src="/images/logo_mixzao.png" alt="Logo" />
+            </Link>
           </div>
 
           <nav>
