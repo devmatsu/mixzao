@@ -27,27 +27,27 @@ function MembersPage() {
           <h2 className={styles.memberCardH2}>{member.nickname}</h2>
           <div className={styles.socialIcons}>
             {member.socialMedia.steam && (
-              <Link className={styles.socialIconsA} href={member.socialMedia.steam} target="_blank" rel="noopener noreferrer">
+              <Link className={`${styles.socialIconsA} ${styles.icons}`} href={member.socialMedia.steam} target="_blank" rel="noopener noreferrer">
                 <FaSteam size={24} />
               </Link>
             )}
             {member.socialMedia.twitch && (
-              <Link className={styles.socialIconsA} href={member.socialMedia.twitch} target="_blank" rel="noopener noreferrer">
+              <Link className={`${styles.socialIconsA} ${styles.icons}`} href={member.socialMedia.twitch} target="_blank" rel="noopener noreferrer">
                 <FaTwitch size={24} />
               </Link>
             )}
             {member.socialMedia.youtube && (
-              <Link className={styles.socialIconsA} href={member.socialMedia.youtube} target="_blank" rel="noopener noreferrer">
+              <Link className={`${styles.socialIconsA} ${styles.icons}`} href={member.socialMedia.youtube} target="_blank" rel="noopener noreferrer">
                 <FaYoutube size={24} />
               </Link>
             )}
             {member.socialMedia.instagram && (
-              <Link className={styles.socialIconsA} href={member.socialMedia.instagram} target="_blank" rel="noopener noreferrer">
+              <Link className={`${styles.socialIconsA} ${styles.icons}`} href={member.socialMedia.instagram} target="_blank" rel="noopener noreferrer">
                 <FaInstagram size={24} />
               </Link>
             )}
             {member.socialMedia.twitter && (
-              <Link className={styles.socialIconsA} href={member.socialMedia.twitter} target="_blank" rel="noopener noreferrer">
+              <Link className={`${styles.socialIconsA} ${styles.icons}`} href={member.socialMedia.twitter} target="_blank" rel="noopener noreferrer">
                 <FaSquareXTwitter size={24} />
               </Link>
             )}

@@ -53,3 +53,37 @@
 .socialIconsA:hover {
   color: #ead265;
 }
+
+@media (max-width: 480px) {
+  .membersPage {
+    padding: 0px;
+  }
+
+  .memberCard {
+    margin: 10px;
+    padding: 10px;
+    width: 140px;
+  }
+
+  .memberCardImg {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .flag {
+    top: 2px;
+    right: 5px;
+    font-size: 20px;
+  }
+
+  .memberCardH2 {
+    font-size: 20px;
+  }
+
+  .icons svg {
+    width: 16px;
+    height: 16px;
+  }
+
+}
