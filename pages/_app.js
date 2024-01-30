@@ -7,7 +7,7 @@ const LINKS = {
   discord: 'https://discord.gg/CFZSssgg3U',
   twitch: 'https://www.twitch.tv/mixzaontc',
   steam: 'https://steamcommunity.com/groups/mixzaontc',
-  youtube: 'https://www.youtube.com/channel/UCmVVHqKhDmGXiVep7hHKVfg',
+  youtube: 'https://www.youtube.com/@mixzaontc2077',
 }
 
 function MyApp({ Component, pageProps }) {
